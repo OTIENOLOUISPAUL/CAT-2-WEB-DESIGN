@@ -1,57 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registration Form</title>
-  <style>
-    form{
-      width:300px;
-      margin:0 auto;
-    }
-    label{
-      display: block;
-      margin-bottom: 5px;
-    }
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    input[type="password"]{
-      width:100%;
-      padding:5px;
-      margin-bottom: 10px;
-    }
-    input[type="submit"]{
-      background-color: #4CAF50;
-      color:white;
-      padding:10px 20px;
-      border:none;
-      cursor:pointer;
-    }
-    input[type="submit"]:hover{
-      background-color: #45a049;
-    }
-  </style>
+    <title>List of Available Courses</title>
 </head>
-<body style="background-color: lightblue;">
+<body>
 
-  <div class="container">
-    <form>
-      <label for="name">Name:</label>
-      <input type="text"id="name"name="name"required>
+<h2>List of Available Courses</h2>
+<ul>
+    <li>Data Structures &amp; Algorithm</li>
+    <li>Web Technology</li>
+    <li>Apptitude &amp; Logical Reasoning</li>
+    <li>Programming Languages</li>
+</ul>
 
-      <label for="email">Email:</label>
-      <input type="email"id="email"name="email"required>
+<h2>Data Structures topics</h2>
+<ol>
+    <li>Array</li>
+    <li>Linked List</li>
+    <li>Stacks</li>
+    <li>Queues</li>
+    <li>Trees</li>
+    <li>Graph</li>
+</ol>
 
-      <label for="phone">Phone:</label>
-      <input tye="tel"id="phone"name="phone"required>
-
-      <label for="password"> set Password:</label>
-      <input type="password"id="password"name="password"required>
-
-      <input type="submit"value="Register">
-    </form>
-  </div>
 </body>
 </html>
 
